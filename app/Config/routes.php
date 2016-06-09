@@ -32,8 +32,13 @@
 	//Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
         
  /* New routes added for the new app implementation */
-        Router::connect('/greenagriculture/managers', array('controller' => 'Managers', 'action' => 'index'));
-        Router::connect('/greenagriculture/managers/login', array('controller' => 'Managers', 'action' => 'login'));
+//        Router::connect('/managers', array('controller' => 'managers', 'action' => 'index'));
+//        Router::connect('/managers/login', array('controller' => 'managers', 'action' => 'login'));
+//        Router::connect('/users/add', array('controller' => 'users', 'action' => 'add'));
+//        Router::connect('/users/login', array('controller' => 'users', 'action' => 'login'));
+//        Router::connect('/users/logout', array('controller' => 'users', 'action' => 'logout'));
+        Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
+        Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
 /**
  * Load all plugin routes. See the CakePlugin documentation on
  * how to customize the loading of plugin routes.

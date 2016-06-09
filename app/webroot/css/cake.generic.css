@@ -27,6 +27,8 @@ body {
 	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
 	font-size:90%;
 	margin: 0;
+        background: url('../img/back4.jpg') no-repeat center center;
+        background-size: cover;
 }
 a {
 	color: #003d4c;
@@ -41,13 +43,13 @@ a img {
 	border:none;
 }
 h1, h2, h3, h4 {
-	font-weight: normal;
+	/*font-weight: normal;*/
 	margin-bottom:0.5em;
 }
 h1 {
-	background:#fff;
-	color: #003d4c;
-	font-size: 100%;
+	/*background:#fff;*/
+	/*color: #003d4c;*/
+	/*font-size: 100%;*/
 }
 h2 {
 	/*background:#fff;*/
@@ -73,15 +75,49 @@ p {
 
 /** Layout **/
 #container {
-	text-align: left;
+	    text-align: left;
+           
+        
+}
+
+/* Header updates */
+
+.header-elem {
+    float: left;
+    padding: 2%;
+}
+
+#clear {
+    clear: both;
 }
 
 #header{
-	padding: 10px 20px;
+    height: 125px;
+    background-color: green;
 }
+
+#logo {
+    width: 21%;
+}
+
+#logo img {
+    width: 25%;
+    max-width: 100%;
+}
+
+#title {
+    width: 60%;
+}
+
+#logout {
+    width: 7%;
+}
+
+/* ====   ===========*/
+
+
 #header h1 {
 	line-height:20px;
-	background: #003d4c url('../img/cake.icon.png') no-repeat left;
 	color: #fff;
 	padding: 0 30px;
 }
@@ -97,10 +133,10 @@ p {
 	text-decoration: underline;
 }
 #content{
-	background: #fff;
+	/*background: #fff;*/
 	clear: both;
 	color: #333;
-	padding: 10px 20px 40px 20px;
+	padding: 40px 20px 40px 20px;
 	overflow: auto;
 }
 #footer {
@@ -132,7 +168,7 @@ div.view {
 	padding:10px 2%;*/
         margin: 0 auto;
         width: 35%;
-        border: 1px solid #666;
+        /*border: 1px solid #666;*/
         padding: 10px 2%;
         /*background-color: #CCCCCC;*/
 }
@@ -283,9 +319,10 @@ fieldset {
 	padding: 16px 10px;
 }
 fieldset legend {
-	color: #e32;
-	font-size: 160%;
-	font-weight: bold;
+    color: white;
+    font-size: 160%;
+    font-weight: bold;
+    text-align: center;
 }
 fieldset fieldset {
 	margin-top: 0;
@@ -306,7 +343,7 @@ form div {
 	vertical-align: text-top;
 }
 form .input {
-	color: #444;
+	/*color: #444;*/
 }
 form .required {
 	font-weight: bold;
@@ -322,9 +359,10 @@ form div.submit {
 	margin-top: 10px;
 }
 label {
-	display: block;
-	font-size: 110%;
-	margin-bottom:3px;
+    color: white;
+    display: block;
+    font-size: 110%;
+    margin-bottom: 3px;
 }
 input, textarea {
 /*	clear: both;
@@ -338,6 +376,11 @@ input, textarea {
         padding: 1%;
         width: 84%;
 }
+
+input:focus {
+    
+}
+
 select {
 	clear: both;
 	font-size: 120%;

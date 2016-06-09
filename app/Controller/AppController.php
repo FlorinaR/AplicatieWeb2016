@@ -32,23 +32,31 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
  
-    public function initialize() {
-        parent::startupProcess();
+    public $components = array(
+            'Flash',
+            'Auth' => array(
+                'loginRedirect' => array(
+                    'controller' => 'managers',
+                    'action' => 'index'
+                ),
+                'logoutRedirect' => array(
+                    'controller' => 'pages',
+                    'action' => 'display',
+                    'home'
+                ),
+                'authenticate' => array(
+                    'Form' => array(
+                        'passwordHasher' => 'Blowfish'
+                    )
+                )
+            )
+        );
+
+    public function beforeFilter() {
+//        $this->Auth->allow('index', 'view');
+//        $this->Auth->loginAction = array('controller'=>'users', 'action'=>'login');
+        $this->Auth->loginAction = array('controller'=>'home', 'action'=>'index');
         
-        $this->loadComponent('Auth', [
-            'authenticate' => [
-                'Form' => [
-                    'fields' => [
-                        'username' => 'email',
-                        'password' => 'password'
-                    ]
-                ]
-            ],
-            'loginAction' => [
-                'controller' => 'Managers',
-                'action' => 'login'
-            ]
-        ]);
     }
     
 }

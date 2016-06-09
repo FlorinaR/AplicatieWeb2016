@@ -1,0 +1,581 @@
+2016-06-08 14:05:53 Error: [MissingControllerException] Controller class GreenagricultureController could not be found.
+Exception Attributes: array (
+  'class' => 'GreenagricultureController',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 14:09:25 Error: [MissingControllerException] Controller class GreenagricultureController could not be found.
+Exception Attributes: array (
+  'class' => 'GreenagricultureController',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/index
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 14:33:46 Error: [MissingControllerException] Controller class GreenagricultureController could not be found.
+Exception Attributes: array (
+  'class' => 'GreenagricultureController',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/managers
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 14:35:51 Error: [MissingActionException] Action GreenagricultureController::managers() could not be found.
+Exception Attributes: array (
+  'controller' => 'GreenagricultureController',
+  'action' => 'managers',
+)
+Request URL: /GreenAgriculture/greenagriculture/managers
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(GreenagricultureController), Object(CakeRequest))
+#2 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-08 14:36:24 Error: [MissingActionException] Action GreenagricultureController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'GreenagricultureController',
+  'action' => 'index',
+)
+Request URL: /GreenAgriculture/greenagriculture/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(GreenagricultureController), Object(CakeRequest))
+#2 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-08 14:37:54 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\GreenAgriculture\app\Controller\GreenagricultureController.php, line 18]
+2016-06-08 14:37:54 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /GreenAgriculture/greenagriculture/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 18, Array)
+#2 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 18, Array)
+#3 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-08 14:49:53 Error: [MissingActionException] Action GreenagricultureController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'GreenagricultureController',
+  'action' => 'index',
+)
+Request URL: /GreenAgriculture/greenagriculture/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(GreenagricultureController), Object(CakeRequest))
+#2 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-08 14:50:17 Error: [MissingViewException] View file "Greenagriculture\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Greenagriculture\\index.ctp',
+)
+Request URL: /GreenAgriculture/greenagriculture/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(GreenagricultureController), Object(CakeRequest))
+#4 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-08 14:58:28 Error: [MissingActionException] Action GreenagricultureController::managers() could not be found.
+Exception Attributes: array (
+  'controller' => 'GreenagricultureController',
+  'action' => 'managers',
+)
+Request URL: /GreenAgriculture/greenagriculture/managers
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(GreenagricultureController), Object(CakeRequest))
+#2 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-08 15:02:19 Error: [MissingActionException] Action GreenagricultureController::managers() could not be found.
+Exception Attributes: array (
+  'controller' => 'GreenagricultureController',
+  'action' => 'managers',
+)
+Request URL: /GreenAgriculture/greenagriculture/managers
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(GreenagricultureController), Object(CakeRequest))
+#2 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-08 15:16:28 Error: [MissingControllerException] Controller class GreenagricultureController could not be found.
+Exception Attributes: array (
+  'class' => 'GreenagricultureController',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 15:19:06 Error: [MissingControllerException] Controller class GreenagricultureController could not be found.
+Exception Attributes: array (
+  'class' => 'GreenagricultureController',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 15:23:04 Error: [MissingControllerException] Controller class GreenagricultureController could not be found.
+Exception Attributes: array (
+  'class' => 'GreenagricultureController',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 15:28:45 Error: [MissingControllerException] Controller class GreenagricultureController could not be found.
+Exception Attributes: array (
+  'class' => 'GreenagricultureController',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 15:28:55 Error: [MissingControllerException] Controller class GreenagricultureController could not be found.
+Exception Attributes: array (
+  'class' => 'GreenagricultureController',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/greenagriculture
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 15:29:07 Error: [MissingControllerException] Controller class GreenagricultureController could not be found.
+Exception Attributes: array (
+  'class' => 'GreenagricultureController',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/home
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 15:29:15 Error: [MissingControllerException] Controller class GreenagricultureController could not be found.
+Exception Attributes: array (
+  'class' => 'GreenagricultureController',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/managers
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 15:29:30 Error: [MissingControllerException] Controller class GreenagricultureController could not be found.
+Exception Attributes: array (
+  'class' => 'GreenagricultureController',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 15:29:32 Error: [MissingControllerException] Controller class GreenagricultureController could not be found.
+Exception Attributes: array (
+  'class' => 'GreenagricultureController',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 15:48:54 Error: [MissingControllerException] Controller class GreenagricultureController could not be found.
+Exception Attributes: array (
+  'class' => 'GreenagricultureController',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 17:07:21 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/managers
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 17:08:40 Error: [MissingControllerException] Controller class GreenagricultureController could not be found.
+Exception Attributes: array (
+  'class' => 'GreenagricultureController',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/managers
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 17:09:07 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'pro_agricultura\'',
+  'enabled' => true,
+)
+Request URL: /GreenAgriculture/greenagriculture/managers
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Model\Model.php(3626): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#4 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Model\Model.php(3653): Model->setSource('managers')
+#5 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Model\Model.php(3031): Model->getDataSource()
+#6 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#7 C:\xampp\htdocs\GreenAgriculture\app\Controller\ManagersController.php(19): Model->find('all')
+#8 [internal function]: ManagersController->index()
+#9 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ManagersController), Array)
+#10 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManagersController), Object(CakeRequest))
+#12 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-06-08 17:09:51 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'pro_agricultura\'',
+  'enabled' => true,
+)
+Request URL: /GreenAgriculture/greenagriculture/managers
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Model\Model.php(3626): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Model\Model.php(1155): Model->setDataSource('default')
+#4 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Model\Model.php(3653): Model->setSource('managers')
+#5 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Model\Model.php(3031): Model->getDataSource()
+#6 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Model\Model.php(3003): Model->_readDataSource('all', Array)
+#7 C:\xampp\htdocs\GreenAgriculture\app\Controller\ManagersController.php(19): Model->find('all')
+#8 [internal function]: ManagersController->index()
+#9 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ManagersController), Array)
+#10 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ManagersController), Object(CakeRequest))
+#12 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-06-08 18:16:59 Error: [MissingControllerException] Controller class GreenagricultureController could not be found.
+Exception Attributes: array (
+  'class' => 'GreenagricultureController',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/managers/login
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-08 23:20:34 Error: Fatal Error (64): Cannot use Security as Security because the name is already in use in [C:\xampp\htdocs\GreenAgriculture\app\Model\Manager.php, line 5]
+2016-06-08 23:20:34 Error: [FatalErrorException] Cannot use Security as Security because the name is already in use
+Request URL: /GreenAgriculture/greenagriculture/managers/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot use Secu...', 'C:\\xampp\\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use Secu...', 'C:\\xampp\\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 64, 'Cannot use Secu...', 'C:\\xampp\\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-09 00:54:37 Error: [MissingControllerException] Controller class GreenagricultureController could not be found.
+Exception Attributes: array (
+  'class' => 'GreenagricultureController',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-09 00:56:15 Error: [MissingControllerException] Controller class GreenagricultureController could not be found.
+Exception Attributes: array (
+  'class' => 'GreenagricultureController',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-09 00:59:33 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-09 01:02:22 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /GreenAgriculture/users
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-09 01:07:19 Error: [MissingControllerException] Controller class GreenagricultureController could not be found.
+Exception Attributes: array (
+  'class' => 'GreenagricultureController',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-09 01:07:48 Error: [MissingControllerException] Controller class GreenagricultureController could not be found.
+Exception Attributes: array (
+  'class' => 'GreenagricultureController',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-09 12:53:38 Error: [MissingControllerException] Controller class GreenagricultureController could not be found.
+Exception Attributes: array (
+  'class' => 'GreenagricultureController',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/img/logo.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-09 12:55:05 Error: [MissingControllerException] Controller class GreenagricultureController could not be found.
+Exception Attributes: array (
+  'class' => 'GreenagricultureController',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/img/logo.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-09 14:21:03 Error: [MissingControllerException] Controller class GreenagricultureController could not be found.
+Exception Attributes: array (
+  'class' => 'GreenagricultureController',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/favicon.ico
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-09 14:35:04 Error: [MissingControllerException] Controller class GreenagricultureController could not be found.
+Exception Attributes: array (
+  'class' => 'GreenagricultureController',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/users/favicon.ico
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-09 14:36:00 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-09 16:20:50 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-09 16:23:38 Error: [MissingControllerException] Controller class GreenagricultureController could not be found.
+Exception Attributes: array (
+  'class' => 'GreenagricultureController',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/greenagriculture/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-09 16:27:49 Error: [ReflectionException] Class GreenagricultureController does not have a constructor, so you cannot pass any constructor arguments
+Request URL: /GreenAgriculture/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(243): ReflectionClass->newInstance(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-09 16:28:23 Error: [ReflectionException] Class GreenagricultureController does not have a constructor, so you cannot pass any constructor arguments
+Request URL: /GreenAgriculture/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(243): ReflectionClass->newInstance(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-09 16:28:24 Error: [ReflectionException] Class GreenagricultureController does not have a constructor, so you cannot pass any constructor arguments
+Request URL: /GreenAgriculture/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(243): ReflectionClass->newInstance(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-09 17:05:24 Error: [MissingActionException] Action GreenagricultureController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'GreenagricultureController',
+  'action' => 'users',
+)
+Request URL: /GreenAgriculture/greenagriculture/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(GreenagricultureController), Object(CakeRequest))
+#2 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-09 17:09:06 Error: [MissingActionException] Action GreenagricultureController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'GreenagricultureController',
+  'action' => 'users',
+)
+Request URL: /GreenAgriculture/greenagriculture/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(GreenagricultureController), Object(CakeRequest))
+#2 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-09 17:09:12 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-09 17:09:31 Error: [MissingActionException] Action GreenagricultureController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'GreenagricultureController',
+  'action' => 'index',
+)
+Request URL: /GreenAgriculture/greenagriculture
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(GreenagricultureController), Object(CakeRequest))
+#2 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-09 17:09:59 Error: [MissingViewException] View file "Greenagriculture\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Greenagriculture\\index.ctp',
+)
+Request URL: /GreenAgriculture/greenagriculture
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(GreenagricultureController), Object(CakeRequest))
+#4 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-09 17:10:08 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /GreenAgriculture/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-09 17:47:17 Error: [MissingActionException] Action UsersController::l() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'l',
+)
+Request URL: /GreenAgriculture/users/l
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-09 17:49:30 Error: Fatal Error (64): Can't use method return value in write context in [C:\xampp\htdocs\GreenAgriculture\app\Controller\AppController.php, line 58]
+2016-06-09 17:49:30 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /GreenAgriculture/users/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Can't use metho...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', 'C:\\xampp\\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', 'C:\\xampp\\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-09 17:50:10 Error: Fatal Error (64): Can't use method return value in write context in [C:\xampp\htdocs\GreenAgriculture\app\Controller\AppController.php, line 58]
+2016-06-09 17:50:10 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /GreenAgriculture/users/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Can't use metho...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', 'C:\\xampp\\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', 'C:\\xampp\\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-09 17:50:12 Error: Fatal Error (64): Can't use method return value in write context in [C:\xampp\htdocs\GreenAgriculture\app\Controller\AppController.php, line 58]
+2016-06-09 17:50:12 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /GreenAgriculture/users/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Can't use metho...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', 'C:\\xampp\\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', 'C:\\xampp\\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-09 17:50:13 Error: Fatal Error (64): Can't use method return value in write context in [C:\xampp\htdocs\GreenAgriculture\app\Controller\AppController.php, line 58]
+2016-06-09 17:50:13 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /GreenAgriculture/users/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Can't use metho...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', 'C:\\xampp\\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', 'C:\\xampp\\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-09 17:50:14 Error: Fatal Error (64): Can't use method return value in write context in [C:\xampp\htdocs\GreenAgriculture\app\Controller\AppController.php, line 58]
+2016-06-09 17:50:14 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /GreenAgriculture/users/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Can't use metho...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', 'C:\\xampp\\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', 'C:\\xampp\\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-09 17:50:16 Error: Fatal Error (64): Can't use method return value in write context in [C:\xampp\htdocs\GreenAgriculture\app\Controller\AppController.php, line 58]
+2016-06-09 17:50:16 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /GreenAgriculture/users/
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Can't use metho...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', 'C:\\xampp\\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', 'C:\\xampp\\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-09 18:08:35 Error: [ReflectionException] Class HomeController does not have a constructor, so you cannot pass any constructor arguments
+Request URL: /GreenAgriculture/home/display/view:home
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(243): ReflectionClass->newInstance(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-06-09 18:09:23 Error: [MissingViewException] View file "Home\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Home\\display.ctp',
+)
+Request URL: /GreenAgriculture/home/display
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#4 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-09 18:09:49 Error: [MissingViewException] View file "Home\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Home\\display.ctp',
+)
+Request URL: /GreenAgriculture/home/display/home
+Stack Trace:
+#0 C:\xampp\htdocs\GreenAgriculture\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\GreenAgriculture\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#4 C:\xampp\htdocs\GreenAgriculture\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
